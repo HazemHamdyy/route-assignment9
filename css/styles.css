@@ -1,0 +1,21 @@
+.fs-0 {
+  font-size: 5rem;
+}
+
+.bg-blue {
+  background-color: #1500ff;
+}
+
+.fs-12 {
+  font-size: 0.75rem;
+}
+
+.btn {
+  width: 14.6rem;
+  height: 4.6rem;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #008001;
+}
