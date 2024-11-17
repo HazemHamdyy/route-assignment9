@@ -55,6 +55,7 @@ function getQuote() {
   do {
     var quoteInd = Math.floor(Math.random() * 10);
   } while (quoteInd === prevQuoteInd);
+  prevQuoteInd = quoteInd;
   boxElement.innerHTML = `<p class="fs-2 text-center">${quotesList[quoteInd].quote}</p>
         <p class="fs-2 text-center">--${quotesList[quoteInd].author}</p>`;
 }
